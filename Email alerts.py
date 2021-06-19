@@ -106,9 +106,9 @@ else:
        msg['subject'] = subject
        msg['to'] = to
     
-       user = "abcdsample0@gmail.com"
+       user = "Enter your Email ID"
        msg['from'] = user
-       password = "diyyjzeyojxiiewm"
+       password = "Enter your password"
     
        server = smtplib.SMTP("smtp.gmail.com", 587)
        server.starttls()
